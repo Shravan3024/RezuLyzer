@@ -1,0 +1,200 @@
+[
+  {
+    "role_name": "Python Developer",
+    "category": "Software Engineering",
+    "description": "We are seeking a talented Python Developer to build robust, scalable backend services, RESTful APIs, and data processing pipelines. You will collaborate with frontend engineers and data scientists to deploy performant microservices.",
+    "required_skills": ["python", "fastapi", "postgresql", "docker", "rest api", "git", "unit testing"],
+    "preferred_skills": ["redis", "celery", "aws", "ci/cd", "linux", "system design"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's in Computer Science, Software Engineering, or related field"],
+    "responsibilities": [
+      "Develop and maintain high-performance Python services and asynchronous APIs.",
+      "Design database schemas, optimize SQL queries, and implement caching layers.",
+      "Write comprehensive unit and integration tests to ensure code quality.",
+      "Participate in code reviews, CI/CD pipeline automation, and container deployments."
+    ]
+  },
+  {
+    "role_name": "Full Stack Developer",
+    "category": "Software Engineering",
+    "description": "Looking for a versatile Full Stack Developer proficient in React on the frontend and Node.js or Python on the backend. You will be responsible for architecting features end-to-end, from responsive UI to database storage.",
+    "required_skills": ["react", "typescript", "javascript", "node.js", "rest api", "html", "css", "postgresql", "git"],
+    "preferred_skills": ["tailwind css", "next.js", "docker", "graphql", "aws", "redux"],
+    "min_experience_years": 3,
+    "required_education": ["Bachelor's in Computer Science or equivalent technical practical experience"],
+    "responsibilities": [
+      "Design and implement responsive, accessible web interfaces in React and TypeScript.",
+      "Architect and scale server-side applications, business logic, and database migrations.",
+      "Collaborate with product managers and designers to iterate quickly on core product features."
+    ]
+  },
+  {
+    "role_name": "Data Scientist",
+    "category": "Data & Analytics",
+    "description": "We are hiring a Data Scientist to formulate analytical frameworks, build predictive machine learning models, and uncover actionable insights from complex structured and unstructured datasets.",
+    "required_skills": ["python", "machine learning", "pandas", "numpy", "scikit-learn", "sql", "data analysis"],
+    "preferred_skills": ["deep learning", "pytorch", "nlp", "tableau", "apache spark", "aws"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's or Master's in Data Science, Statistics, Computer Science, or Mathematics"],
+    "responsibilities": [
+      "Perform exploratory data analysis and feature engineering on high-dimensional data.",
+      "Develop, train, tune, and evaluate predictive machine learning models.",
+      "Present findings, statistical visualizations, and business recommendations to cross-functional stakeholders."
+    ]
+  },
+  {
+    "role_name": "AI/ML Engineer",
+    "category": "Artificial Intelligence",
+    "description": "Seeking an AI/ML Engineer to train, fine-tune, and deploy machine learning and NLP models into production systems. Experience with deep learning frameworks and transformer architectures is essential.",
+    "required_skills": ["python", "pytorch", "tensorflow", "deep learning", "nlp", "hugging face", "docker", "git"],
+    "preferred_skills": ["llm", "fastapi", "kubernetes", "mlops", "spacy", "computer vision"],
+    "min_experience_years": 3,
+    "required_education": ["Bachelor's or Master's in Artificial Intelligence, Computer Science, or related field"],
+    "responsibilities": [
+      "Design, benchmark, and deploy deep learning and NLP models into production microservices.",
+      "Implement model evaluation pipelines, latency optimizations, and embedding indexes.",
+      "Collaborate with backend engineers to integrate intelligent inference services."
+    ]
+  },
+  {
+    "role_name": "Frontend Developer",
+    "category": "Software Engineering",
+    "description": "We need a skilled Frontend Developer dedicated to creating clean, performant, and delightful user experiences. Strong proficiency in modern React, TypeScript, and modern CSS frameworks is required.",
+    "required_skills": ["react", "javascript", "typescript", "html", "css", "tailwind css", "git"],
+    "preferred_skills": ["next.js", "redux", "unit testing", "webpack", "figma"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's degree or equivalent web development portfolio"],
+    "responsibilities": [
+      "Translate Figma prototypes into pixel-perfect, accessible, and responsive web components.",
+      "Optimize frontend bundle sizes, rendering performance, and state management.",
+      "Integrate RESTful and GraphQL APIs with robust error handling and loading indicators."
+    ]
+  },
+  {
+    "role_name": "Backend Developer",
+    "category": "Software Engineering",
+    "description": "Looking for a Backend Developer to architect microservices, manage database integrity, and build high-throughput APIs.",
+    "required_skills": ["node.js", "python", "postgresql", "rest api", "microservices", "git", "docker"],
+    "preferred_skills": ["redis", "kubernetes", "ci/cd", "system design", "aws", "linux"],
+    "min_experience_years": 3,
+    "required_education": ["Bachelor's in Computer Science, Software Engineering, or related discipline"],
+    "responsibilities": [
+      "Build secure, maintainable REST and gRPC backend endpoints.",
+      "Architect relational data models, indexing strategies, and database transactions.",
+      "Maintain CI/CD pipelines, container orchestration, and server observability."
+    ]
+  },
+  {
+    "role_name": "Data Analyst",
+    "category": "Data & Analytics",
+    "description": "Seeking a detail-oriented Data Analyst to turn raw data into meaningful business dashboards, reports, and strategic intelligence.",
+    "required_skills": ["sql", "excel", "data analysis", "tableau", "power bi", "communication"],
+    "preferred_skills": ["python", "pandas", "data visualization", "financial modeling"],
+    "min_experience_years": 1,
+    "required_education": ["Bachelor's degree in Economics, Business Analytics, Statistics, or Computer Science"],
+    "responsibilities": [
+      "Write complex SQL queries to extract, transform, and aggregate operational metrics.",
+      "Design and maintain executive dashboards in Tableau or Power BI.",
+      "Collaborate with business units to define KPIs and deliver weekly analytical reports."
+    ]
+  },
+  {
+    "role_name": "Business Analyst",
+    "category": "Business & Management",
+    "description": "We are looking for a Business Analyst to bridge the gap between business stakeholders and technical development teams, gathering requirements and analyzing processes.",
+    "required_skills": ["business analysis", "communication", "agile", "excel", "problem solving", "collaboration"],
+    "preferred_skills": ["sql", "jira", "tableau", "financial modeling", "system design"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's in Business Administration, Information Systems, or Finance"],
+    "responsibilities": [
+      "Conduct stakeholder interviews and translate business objectives into functional specifications.",
+      "Document user stories, acceptance criteria, and workflow diagrams.",
+      "Facilitate sprint planning, backlog grooming, and UAT testing cycles."
+    ]
+  },
+  {
+    "role_name": "Digital Marketing Executive",
+    "category": "Marketing & Sales",
+    "description": "Seeking an enthusiastic Digital Marketing Executive to plan and execute multi-channel digital campaigns, optimize SEO/SEM performance, and drive qualified organic and paid lead acquisition.",
+    "required_skills": ["digital marketing", "seo", "sem", "social media marketing", "content marketing", "communication"],
+    "preferred_skills": ["email marketing", "crm", "google analytics", "copywriting"],
+    "min_experience_years": 1,
+    "required_education": ["Bachelor's degree in Marketing, Communications, or Business"],
+    "responsibilities": [
+      "Manage on-page and off-page SEO strategies to enhance organic visibility.",
+      "Execute targeted PPC campaigns across Google Ads and social channels.",
+      "Analyze conversion funnels, bounce rates, and campaign ROI metrics."
+    ]
+  },
+  {
+    "role_name": "HR Executive",
+    "category": "Human Resources",
+    "description": "We are seeking an HR Executive to support talent acquisition, coordinate employee onboarding, oversee compliance with labor policies, and foster employee engagement.",
+    "required_skills": ["talent acquisition", "communication", "onboarding", "hr policies", "collaboration", "problem solving"],
+    "preferred_skills": ["hrms", "employee engagement", "excel", "conflict resolution"],
+    "min_experience_years": 1,
+    "required_education": ["Bachelor's in Human Resources, Psychology, or Business Administration"],
+    "responsibilities": [
+      "Source, screen, and interview candidates for open job vacancies.",
+      "Coordinate new hire orientation and documentation procedures.",
+      "Maintain HR records and assist in internal employee welfare initiatives."
+    ]
+  },
+  {
+    "role_name": "Accountant",
+    "category": "Finance & Accounting",
+    "description": "Looking for an Accountant to manage general ledger accounting, prepare financial statements, conduct reconciliations, and ensure statutory tax compliance.",
+    "required_skills": ["accounting", "excel", "financial modeling", "auditing", "erp", "problem solving"],
+    "preferred_skills": ["quickbooks", "tally", "sap", "gaap", "tax compliance"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's in Accounting, Finance, or Commerce (CPA / CA a plus)"],
+    "responsibilities": [
+      "Maintain monthly balance sheets, income statements, and bank reconciliations.",
+      "Process accounts payable, accounts receivable, and payroll disbursements.",
+      "Prepare tax filings and collaborate with external auditors during financial reviews."
+    ]
+  },
+  {
+    "role_name": "Mechanical Engineer",
+    "category": "Engineering",
+    "description": "Seeking a Mechanical Engineer to design mechanical components, create detailed 2D/3D CAD models, and oversee fabrication and quality validation.",
+    "required_skills": ["autocad", "solidworks", "ansys", "quality assurance", "problem solving", "collaboration"],
+    "preferred_skills": ["matlab", "lean manufacturing", "six sigma", "dfm"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's in Mechanical Engineering"],
+    "responsibilities": [
+      "Develop 3D models and technical drafting drawings according to ASME standards.",
+      "Perform finite element analysis (FEA) and thermal stress simulations.",
+      "Oversee prototype manufacturing and conduct dimensional and quality testing."
+    ]
+  },
+  {
+    "role_name": "Civil Engineer",
+    "category": "Engineering",
+    "description": "We are hiring a Civil Engineer to manage structural design calculations, inspect construction sites, and ensure building code compliance and safety standards.",
+    "required_skills": ["autocad", "structural analysis", "quality assurance", "communication", "problem solving"],
+    "preferred_skills": ["revit", "staad pro", "site supervision", "estimation"],
+    "min_experience_years": 2,
+    "required_education": ["Bachelor's in Civil Engineering"],
+    "responsibilities": [
+      "Review structural blueprints, site surveys, and geotechnical reports.",
+      "Supervise on-site construction progress, material specifications, and contractor compliance.",
+      "Ensure adherence to structural codes, environmental regulations, and safety mandates."
+    ]
+  },
+  {
+    "role_name": "Sales Executive",
+    "category": "Marketing & Sales",
+    "description": "Looking for an energetic Sales Executive to drive B2B customer acquisition, manage the sales pipeline from prospect to close, and cultivate lasting client relationships.",
+    "required_skills": ["sales", "communication", "crm", "collaboration", "time management", "problem solving"],
+    "preferred_skills": ["lead generation", "negotiation", "b2b sales", "presentation skills"],
+    "min_experience_years": 1,
+    "required_education": ["Bachelor's degree in any discipline"],
+    "responsibilities": [
+      "Identify prospective clients and conduct consultative outbound discovery calls.",
+      "Deliver tailored product demonstrations and negotiate commercial proposals.",
+      "Maintain accurate CRM records and consistently surpass quarterly revenue quotas."
+    ]
+  }
+]
+

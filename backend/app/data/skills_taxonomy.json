@@ -1,0 +1,187 @@
+{
+  "categories": {
+    "programming_languages": {
+      "name": "Programming Languages",
+      "skills": {
+        "python": {"aliases": ["py", "python3", "python2"]},
+        "javascript": {"aliases": ["js", "es6", "es2015", "ecmascript"]},
+        "typescript": {"aliases": ["ts"]},
+        "java": {"aliases": ["core java", "java 8", "java 11", "java 17", "j2ee"]},
+        "c++": {"aliases": ["cpp", "c plus plus"]},
+        "c#": {"aliases": ["csharp", "c sharp"]},
+        "c": {"aliases": ["c language", "ansi c"]},
+        "go": {"aliases": ["golang"]},
+        "rust": {"aliases": ["rustlang"]},
+        "php": {"aliases": ["php7", "php8"]},
+        "ruby": {"aliases": ["ruby on rails"]},
+        "swift": {"aliases": ["swiftui"]},
+        "kotlin": {"aliases": ["android kotlin"]},
+        "r": {"aliases": ["r programming", "r-lang"]},
+        "scala": {"aliases": []},
+        "dart": {"aliases": ["flutter dart"]},
+        "shell": {"aliases": ["bash", "sh", "zsh", "powershell", "shell scripting"]}
+      }
+    },
+    "frontend": {
+      "name": "Frontend Development",
+      "skills": {
+        "react": {"aliases": ["react.js", "reactjs"]},
+        "angular": {"aliases": ["angularjs", "angular 2+"]},
+        "vue.js": {"aliases": ["vue", "vuejs", "vue 3"]},
+        "next.js": {"aliases": ["nextjs", "next"]},
+        "html": {"aliases": ["html5"]},
+        "css": {"aliases": ["css3"]},
+        "tailwind css": {"aliases": ["tailwindcss", "tailwind"]},
+        "bootstrap": {"aliases": ["bootstrap 5", "twitter bootstrap"]},
+        "sass": {"aliases": ["scss"]},
+        "redux": {"aliases": ["redux toolkit", "rtk"]},
+        "svelte": {"aliases": ["sveltekit"]},
+        "webpack": {"aliases": ["vite", "rollup", "parcel"]},
+        "jquery": {"aliases": []}
+      }
+    },
+    "backend": {
+      "name": "Backend Development",
+      "skills": {
+        "node.js": {"aliases": ["nodejs", "node"]},
+        "express.js": {"aliases": ["express", "expressjs"]},
+        "fastapi": {"aliases": ["fast-api"]},
+        "django": {"aliases": ["django rest framework", "drf"]},
+        "flask": {"aliases": []},
+        "spring boot": {"aliases": ["springboot", "spring framework", "spring"]},
+        "asp.net": {"aliases": ["asp.net core", ".net core", "dotnet", ".net"]},
+        "graphql": {"aliases": ["apollo graphql"]},
+        "rest api": {"aliases": ["restful api", "rest", "restful web services", "web apis"]},
+        "microservices": {"aliases": ["microservice architecture", "service oriented architecture", "soa"]},
+        "grpc": {"aliases": ["protocol buffers", "protobuf"]}
+      }
+    },
+    "databases": {
+      "name": "Databases & Storage",
+      "skills": {
+        "postgresql": {"aliases": ["postgres", "psql"]},
+        "mysql": {"aliases": ["my-sql"]},
+        "mongodb": {"aliases": ["mongo"]},
+        "redis": {"aliases": ["redis cache"]},
+        "sqlite": {"aliases": ["sqlite3"]},
+        "oracle": {"aliases": ["oracle db", "pl/sql"]},
+        "microsoft sql server": {"aliases": ["mssql", "sql server", "t-sql"]},
+        "cassandra": {"aliases": ["apache cassandra"]},
+        "elasticsearch": {"aliases": ["elastic search", "elk", "elk stack"]},
+        "dynamodb": {"aliases": ["aws dynamodb"]},
+        "firebase": {"aliases": ["firestore", "firebase realtime db"]},
+        "neo4j": {"aliases": ["graph database"]}
+      }
+    },
+    "cloud_devops": {
+      "name": "Cloud & DevOps",
+      "skills": {
+        "aws": {"aliases": ["amazon web services", "ec2", "s3", "lambda", "aws cloud"]},
+        "azure": {"aliases": ["microsoft azure", "azure devops"]},
+        "google cloud": {"aliases": ["gcp", "google cloud platform", "google compute engine"]},
+        "docker": {"aliases": ["containerization", "docker compose", "dockerfile"]},
+        "kubernetes": {"aliases": ["k8s"]},
+        "git": {"aliases": ["version control", "git cli"]},
+        "github": {"aliases": ["github actions", "gitlab", "bitbucket"]},
+        "ci/cd": {"aliases": ["continuous integration", "continuous deployment", "jenkins", "gitlab ci", "argo cd"]},
+        "terraform": {"aliases": ["infrastructure as code", "iac"]},
+        "ansible": {"aliases": []},
+        "linux": {"aliases": ["unix", "ubuntu", "centos", "debian", "redhat"]},
+        "nginx": {"aliases": ["apache web server"]}
+      }
+    },
+    "ai_ml_data": {
+      "name": "AI, Machine Learning & Data Science",
+      "skills": {
+        "machine learning": {"aliases": ["ml", "applied ml"]},
+        "deep learning": {"aliases": ["dl", "neural networks", "ann", "cnn", "rnn", "lstm"]},
+        "natural language processing": {"aliases": ["nlp", "text processing"]},
+        "computer vision": {"aliases": ["cv", "image processing", "opencv"]},
+        "tensorflow": {"aliases": ["tf", "keras"]},
+        "pytorch": {"aliases": ["torch"]},
+        "scikit-learn": {"aliases": ["sklearn"]},
+        "hugging face": {"aliases": ["transformers", "huggingface"]},
+        "spacy": {"aliases": []},
+        "nltk": {"aliases": []},
+        "pandas": {"aliases": []},
+        "numpy": {"aliases": []},
+        "data analysis": {"aliases": ["exploratory data analysis", "eda", "data analytics"]},
+        "data visualization": {"aliases": ["matplotlib", "seaborn", "plotly", "d3.js"]},
+        "power bi": {"aliases": ["powerbi", "microsoft power bi"]},
+        "tableau": {"aliases": []},
+        "sql": {"aliases": ["structured query language"]},
+        "apache spark": {"aliases": ["spark", "pyspark"]},
+        "llm": {"aliases": ["large language models", "generative ai", "genai", "prompt engineering", "langchain", "rag", "llama-index"]}
+      }
+    },
+    "software_engineering_practices": {
+      "name": "Software Engineering Practices",
+      "skills": {
+        "agile": {"aliases": ["scrum", "kanban", "sprint planning"]},
+        "unit testing": {"aliases": ["tdd", "test driven development", "pytest", "jest", "junit", "integration testing"]},
+        "system design": {"aliases": ["high level design", "low level design", "software architecture", "design patterns"]},
+        "clean code": {"aliases": ["refactoring", "code review", "solid principles"]},
+        "debugging": {"aliases": ["troubleshooting", "profiling", "performance tuning"]}
+      }
+    },
+    "business_finance_analytics": {
+      "name": "Business, Finance & Analytics",
+      "skills": {
+        "financial modeling": {"aliases": ["financial analysis", "forecasting", "budgeting"]},
+        "accounting": {"aliases": ["general ledger", "balance sheet", "p&l", "accounts payable", "accounts receivable"]},
+        "auditing": {"aliases": ["internal audit", "tax compliance", "gaap", "ifrs"]},
+        "excel": {"aliases": ["advanced excel", "vlookup", "pivot tables", "excel modeling", "macros", "vba"]},
+        "business analysis": {"aliases": ["requirements gathering", "brd", "frd", "gap analysis", "stakeholder management"]},
+        "erp": {"aliases": ["sap", "oracle erp", "netsuite", "tally", "quickbooks"]}
+      }
+    },
+    "marketing_sales": {
+      "name": "Marketing & Sales",
+      "skills": {
+        "digital marketing": {"aliases": ["online marketing", "growth marketing"]},
+        "seo": {"aliases": ["search engine optimization", "on-page seo", "off-page seo", "technical seo"]},
+        "sem": {"aliases": ["google ads", "ppc", "pay per click", "paid search"]},
+        "social media marketing": {"aliases": ["smm", "facebook ads", "linkedin marketing", "instagram marketing"]},
+        "content marketing": {"aliases": ["copywriting", "content strategy", "blogging"]},
+        "email marketing": {"aliases": ["mailchimp", "hubspot", "drip campaigns"]},
+        "crm": {"aliases": ["salesforce", "hubspot crm", "zoho crm", "lead generation"]},
+        "sales": {"aliases": ["b2b sales", "b2c sales", "cold calling", "negotiation", "pipeline management", "account management"]}
+      }
+    },
+    "human_resources": {
+      "name": "Human Resources & Talent",
+      "skills": {
+        "talent acquisition": {"aliases": ["recruiting", "technical recruiting", "sourcing", "headhunting"]},
+        "onboarding": {"aliases": ["employee onboarding", "induction"]},
+        "employee engagement": {"aliases": ["people operations", "retention", "culture"]},
+        "hr policies": {"aliases": ["compliance", "labor law", "statutory compliance"]},
+        "hrms": {"aliases": ["workday", "bamboohr", "darwinbox", "keka"]}
+      }
+    },
+    "engineering_core": {
+      "name": "Core Engineering (Mechanical, Civil, Electrical)",
+      "skills": {
+        "autocad": {"aliases": ["cad", "computer aided design", "drafting"]},
+        "solidworks": {"aliases": ["3d modeling", "catia", "creo"]},
+        "ansys": {"aliases": ["finite element analysis", "fea", "cfd", "computational fluid dynamics"]},
+        "matlab": {"aliases": ["simulink"]},
+        "plc": {"aliases": ["scada", "automation", "embedded c", "microcontrollers"]},
+        "structural analysis": {"aliases": ["staad pro", "etabs", "revit", "bim", "civil engineering design"]},
+        "quality assurance": {"aliases": ["qa/qc", "six sigma", "iso 9001", "lean manufacturing"]}
+      }
+    },
+    "soft_skills": {
+      "name": "Soft Skills & Management",
+      "skills": {
+        "communication": {"aliases": ["verbal communication", "written communication", "presentation skills"]},
+        "leadership": {"aliases": ["team leadership", "mentoring", "people management"]},
+        "problem solving": {"aliases": ["critical thinking", "analytical thinking", "analytical skills"]},
+        "collaboration": {"aliases": ["team player", "cross-functional collaboration", "teamwork"]},
+        "time management": {"aliases": ["prioritization", "multitasking", "organizational skills"]},
+        "adaptability": {"aliases": ["flexibility", "quick learner", "resilience"]},
+        "conflict resolution": {"aliases": ["negotiation", "client relationship"]}
+      }
+    }
+  }
+}
+
