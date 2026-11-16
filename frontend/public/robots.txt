@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://rezulyzer.onrender.com/sitemap.xml
+Sitemap: https://rezu-lyzer.vercel.app/sitemap.xml
