@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <!-- Resume Sheet Icon -->
+  <path d="M160 110C160 98.9543 168.954 90 180 90H290L352 152V402C352 413.046 343.046 422 332 422H180C168.954 422 160 413.046 160 402V110Z" fill="white" fill-opacity="0.95"/>
+  <path d="M290 90V142C290 147.523 294.477 152 300 152H352L290 90Z" fill="#CBD5E1"/>
+  <!-- Lines on Sheet -->
+  <rect x="200" y="190" width="112" height="16" rx="8" fill="#3B82F6"/>
+  <rect x="200" y="226" width="80" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="200" y="254" width="112" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="200" y="282" width="96" height="12" rx="6" fill="#94A3B8"/>
+  <!-- Check Badge -->
+  <circle cx="340" cy="340" r="56" fill="#10B981" stroke="#FFFFFF" stroke-width="8"/>
+  <path d="M320 340L334 354L364 324" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

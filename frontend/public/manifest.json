@@ -1,0 +1,17 @@
+{
+  "name": "ResuLyzer – AI Resume & ATS Analyzer",
+  "short_name": "ResuLyzer",
+  "description": "Understand Your Resume. Improve Your Opportunities. Real-time AI Resume Analyzer and ATS Compatibility Scanner.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

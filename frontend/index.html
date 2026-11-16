@@ -2,18 +2,121 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ResuLyzer – Understand Your Resume. Improve Your Opportunities.</title>
-    <meta name="description" content="AI-Powered Resume Analyzer & ATS Compatibility Platform. Intelligent NLP-driven matching, skill gap detection, and actionable resume recommendations." />
-    <!-- Inter Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Primary Meta Tags -->
+    <title>ResuLyzer – Free AI Resume Analyzer & Real-Time ATS Compatibility Platform</title>
+    <meta name="title" content="ResuLyzer – Free AI Resume Analyzer & Real-Time ATS Compatibility Platform" />
+    <meta name="description" content="Analyze your resume in real time against any job description with intelligent NLP matching, ATS compatibility scoring, skill gap detection, and instant downloadable PDF audit reports." />
+    <meta name="keywords" content="resume analyzer, ats checker, ats resume scanner, free ats score, cv parser, resume match, job description matcher, resume keywords, resume optimization, career tools, applicant tracking system, resume review ai" />
+    <meta name="author" content="ResuLyzer" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://rezulyzer.onrender.com/" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rezulyzer.onrender.com/" />
+    <meta property="og:site_name" content="ResuLyzer" />
+    <meta property="og:title" content="ResuLyzer – Understand Your Resume. Improve Your Opportunities." />
+    <meta property="og:description" content="Intelligent NLP-powered resume analysis, real-time ATS compatibility scoring, and actionable recommendations to help you land your dream job." />
+    <meta property="og:image" content="https://rezulyzer.onrender.com/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ResuLyzer AI Resume & ATS Platform" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://rezulyzer.onrender.com/" />
+    <meta name="twitter:title" content="ResuLyzer – AI-Powered Resume Analyzer & ATS Platform" />
+    <meta name="twitter:description" content="Analyze your resume against any job opportunity using intelligent NLP matching, ATS scoring, and actionable recommendations." />
+    <meta name="twitter:image" content="https://rezulyzer.onrender.com/og-image.svg" />
+
+    <!-- Favicon & PWA Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#2563EB" />
+    <meta name="application-name" content="ResuLyzer" />
+    <meta name="apple-mobile-web-app-title" content="ResuLyzer" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Inter Font Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (Schema.org JSON-LD): WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ResuLyzer",
+      "url": "https://rezulyzer.onrender.com",
+      "description": "Free AI-powered resume analyzer and ATS compatibility platform with real-time NLP matching, skill gap detection, and actionable resume optimization advice.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Real-Time NLP Resume Parsing (PDF & DOCX)",
+        "Multi-Factor ATS Compatibility Scoring",
+        "Required vs Preferred Skill Gap Detection",
+        "Semantic Similarity & Keyword Density Analysis",
+        "Multi-Role Resume Comparison Matrix",
+        "Downloadable Professional PDF Audit Reports"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data (Schema.org JSON-LD): FAQPage for Rich Search Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an ATS Compatibility Score and how does ResuLyzer calculate it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ResuLyzer calculates your ATS compatibility score using a multi-factor mathematical formula: 35% Required Skills Match, 25% Semantic Vector Similarity, 15% Keyword Relevance, 10% Experience Alignment, 10% Education Relevance, and 5% Resume Structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ResuLyzer support both PDF and DOCX resumes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ResuLyzer extracts text and structure from both PDF files (via PyMuPDF) and Microsoft Word documents (.docx) with binary header verification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I compare my resume across multiple jobs at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ResuLyzer includes a Multi-Role Comparison matrix where you upload your resume once and view your compatibility ranking across different career paths and job postings side-by-side."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are my uploaded resumes stored privately and securely?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. ResuLyzer enforces strict document privacy: your files are processed securely, are never sold or shared with third parties, and are never used for public model training."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-slate-50 text-slate-800 antialiased font-sans min-h-screen">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
