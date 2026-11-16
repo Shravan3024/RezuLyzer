@@ -11,7 +11,7 @@ import {
   MultiJobCompareResponse,
 } from '../types';
 
-export const API_BASE = '/api/v1';
+export const API_BASE = (import.meta as any).env?.VITE_API_URL || '/api/v1';
 
 // Initialize or retrieve guest session id
 export const getOrCreateGuestSessionId = (): string => {
